@@ -263,7 +263,7 @@ def get_langchain_tools(prefix: str = "fs", config: Optional[FSConfig] = None):
     Each tool is a thin wrapper that enforces the provided `config` at call time.
     """
     try:
-        from langchain.tools import Tool
+        from langchain_core.tools.simple import Tool
     except Exception as e:
         raise ImportError("langchain is required to build Tool wrappers. Install with `pip install langchain`.") from e
 
