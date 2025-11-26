@@ -1,5 +1,9 @@
 # Project--Explorer
 
+<p align="center">
+	<img src="agent.png" alt="Agent diagram" style="max-width:720px; width:80%; height:auto;" />
+</p>
+
 Small workspace demonstrating an LLM-driven agent workflow using LangChain-style tools and a filesystem backend.
 
 Contents
